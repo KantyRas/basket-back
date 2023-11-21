@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/equipes")
+@CrossOrigin
 public class EquipeController {
 
     @Autowired
