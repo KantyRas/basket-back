@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class DAO {
     public Connection connect() {
-        String url = "jdbc:postgresql://localhost:5432/done";
+        String url = "jdbc:postgresql://roundhouse.proxy.rlwy.net:56186/railway";
         String user = "postgres";
-        String password = "root";
+        String password = "1bfg--cbCC2*f*beEgDEBc554cAe12c4";
 
         Connection conn = null;
         try {
