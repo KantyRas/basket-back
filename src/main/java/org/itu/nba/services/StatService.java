@@ -21,7 +21,7 @@ public class StatService {
     public void save(int id_match, int id_joueur, String table) {
         try {
             Connection conn = dao.connect();
-            String sql = String.format("INSERT INTO %s VALUE( %s , %s ) ", id_match, id_joueur);
+            String sql = String.format("INSERT INTO %s VALUES( %s , %s ) ",table , id_match, id_joueur);
 
             Statement stmt = conn.createStatement();
 
